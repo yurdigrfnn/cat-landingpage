@@ -1,25 +1,38 @@
 import { useState } from "react";
 import { NavbarMobile } from "../NavbarMobile";
 import { MenuBarIcon } from "../Icons";
+import logoImg from "../../assets/Logo.png";
 
 export const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
     <div className="mt-10">
       <div className="md:flex justify-between content-center hidden">
-        <div className="lg:w-[20%] w-[15%]">
-          <h1>ada</h1>
+        <div className="lg:w-[20%] w-[15%] my-auto">
+          <img src={logoImg} alt="" className="w-[150px]" />
         </div>
-        <div className="flex lg:w-[60%] w-[70%] justify-between my-auto">
-          <span className="text-base font-bold">Max For Dog</span>
-          <span className="text-base font-bold">Max For Cat</span>
-          <span className="text-base font-bold">Forum</span>
-          <span className="text-base font-bold">Pet Talk</span>
-          <span className="text-base font-bold">Max share</span>
-          <span className="text-base font-bold">Contact Us</span>
-        </div>
+        <ul className="flex lg:w-[60%] w-[70%] justify-between my-auto">
+          <li className="text-base font-bold hover:text-[#299FFF] cursor-pointer">
+            Max For Dog
+          </li>
+          <li className="text-base font-bold hover:text-[#299FFF] cursor-pointer">
+            Max For Cat
+          </li>
+          <li className="text-base font-bold hover:text-[#299FFF] cursor-pointer">
+            Forum
+          </li>
+          <li className="text-base font-bold hover:text-[#299FFF] cursor-pointer">
+            Pet Talk
+          </li>
+          <li className="text-base font-bold hover:text-[#299FFF] cursor-pointer">
+            Max share
+          </li>
+          <li className="text-base font-bold hover:text-[#299FFF] cursor-pointer">
+            Contact Us
+          </li>
+        </ul>
         <div className="flex justify-end  lg:w-[20%] w-[15%]">
-          <button className="bg-[#299FFF] px-8 py-[14px] text-sm font-bold rounded-[10px]">
+          <button className="bg-[#299FFF] text-white px-8 py-[14px] text-sm font-bold rounded-[10px]">
             Join Us
           </button>
         </div>
@@ -37,7 +50,9 @@ export const Navbar = () => {
           <span className=""></span>
           <MenuBarIcon className="h-6 w-6 text-black" aria-hidden="true" />
         </button>
-        <div className="text-center">tes</div>
+        <div className="text-center flex justify-center items-start content-center w-full">
+          <img src={logoImg} alt="" className="w-[150px]" />
+        </div>
       </div>
     </div>
   );
