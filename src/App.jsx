@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer";
 import { Community } from "./features/community";
 import { Description } from "./features/description";
 import { Home } from "./features/home";
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div>
         <Community />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
