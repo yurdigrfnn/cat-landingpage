@@ -1,5 +1,5 @@
 import RightImg from "../assets/rightImage.png";
-import LeftImg from "../assets/leftimage.png";
+import LeftImg from "../assets/leftImage.png";
 import Ingredient from "../assets/Ingredient.png";
 import Shrimp from "../assets/shrimp.png";
 import Iventories from "../assets/iventories.png";
