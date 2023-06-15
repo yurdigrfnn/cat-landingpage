@@ -6,6 +6,7 @@ import Person2 from "../assets/person2.png";
 import Person3 from "../assets/person3.png";
 import Person4 from "../assets/person4.png";
 import Person5 from "../assets/person5.png";
+import Rectangel from "../assets/rectangel.png";
 
 import MLeft from "../assets/m-left.png";
 import MRight from "../assets/m-right.png";
@@ -92,6 +93,7 @@ export const Community = () => {
         alt=""
         className="absolute bottom-0 right-0 z-[-1] lg:w-max sm:w-[84px] md:w-[128px]"
       />
+      <img src={Rectangel} alt="" className="absolute z-[-10] bottom-0" />
     </section>
   );
 };
