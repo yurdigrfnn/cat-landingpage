@@ -1,5 +1,6 @@
 import { Description } from "./features/description";
 import { Home } from "./features/home";
+import { StoryAndHighlights } from "./features/storyAndHighlights";
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       </div>
       <div>
         <Description />
+      </div>
+      <div>
+        <StoryAndHighlights />
       </div>
     </div>
   );
