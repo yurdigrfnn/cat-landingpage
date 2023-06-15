@@ -1,10 +1,11 @@
+import { Community } from "./features/community";
 import { Description } from "./features/description";
 import { Home } from "./features/home";
 import { StoryAndHighlights } from "./features/storyAndHighlights";
 
 function App() {
   return (
-    <div className="mb-10">
+    <div className="">
       <div className="relative md:mb-4 mb-8">
         <Home />
       </div>
@@ -13,6 +14,9 @@ function App() {
       </div>
       <div>
         <StoryAndHighlights />
+      </div>
+      <div>
+        <Community />
       </div>
     </div>
   );
