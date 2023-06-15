@@ -16,7 +16,8 @@ export const StoryAndHighlights = () => {
       <div className="mt-[65px] md:mt-[107px] px-3 md:px-0 lg:w-[88.61%] md:w-[95%] mx-auto">
         <div className="w-full md:text-start text-center">
           <h1 className="md:text-5xl text-2xl font-extrabold">
-            Story & Highlights
+            <span className="bg-[#F1CB80] rounded-lg px-2">Story</span> &
+            Highlights
           </h1>
         </div>
         <div className="mt-[22px] flex flex-col md:mt-[54px] relative">
@@ -44,7 +45,7 @@ export const StoryAndHighlights = () => {
         </div>
       </div>
       <div className="relative flex">
-        <div className="absolute top-0 left-0-0 z-[-1]">
+        <div className="absolute top-0 -mt-10 left-0 z-[-1]">
           <img src={MLogo2} alt="" className="md:w-[444px] w-[149px] mt-14" />
         </div>
       </div>
