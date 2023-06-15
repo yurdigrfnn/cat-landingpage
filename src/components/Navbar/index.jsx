@@ -45,7 +45,7 @@ export const Navbar = () => {
           />
           <button
             type="button"
-            className="flex h-10 w-10 ml-6 absolute justify-center rounded-full text-gray-500"
+            className="flex h-10 w-10 ml-1 absolute justify-center rounded-full text-gray-500"
             onClick={() => setSidebarOpen(true)}
           >
             <MenuBarIcon className="h-6 w-6 text-black" aria-hidden="true" />
